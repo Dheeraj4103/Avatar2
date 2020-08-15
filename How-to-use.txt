@@ -1,0 +1,21 @@
+To use this Voice Assistance, you need to install following things/Modules:-
+
+1. Python
+2. pyttsx3 --> pip install pyttsx3
+3. wikipedia --> pip install wikipedia
+4. Google Translater --> pip install google_trans
+5. Google-text-to-speech --> pip install gtts
+6. Pandas --> pip install pandas
+
+
+After installing these modules, You can use Voice assistance.
+
+THIS VOICE ASSISTANCE IS IN ENGLISH
+
+For changing Language follow these steps:- 
+
+1. open engine2.py file
+2. In line 9, write lg='hi' 
+
+
+MAKE SURE YOU HAVE INTERNET CONNECTION
