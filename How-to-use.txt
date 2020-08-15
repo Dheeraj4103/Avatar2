@@ -7,6 +7,7 @@ To use this Voice Assistance, you need to install following things/Modules:-
 5. Google-text-to-speech --> pip install gtts
 6. Pandas --> pip install pandas
 
+Open main.py to use voice assistance
 
 After installing these modules, You can use Voice assistance.
 
