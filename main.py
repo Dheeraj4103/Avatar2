@@ -5,7 +5,7 @@ import cloak
 import web
 import random
 import os
-from engine2 import speak
+from engine1 import speak
 import speech_recognition as sr
 from user_cred1 import SignUp
 
@@ -71,7 +71,7 @@ def main():
         elif 'note' in query:
             qry = " "+' ' + '\n' + f'{cloak.date()}  ' + \
                 f'{cloak.time()}' + '\n' + query[5:] + '\n'
-            with open("note.txt", 'a') as file:
+            with open(r"D:\\Avatar\\Avatar2\\note.txt", 'a') as file:
                 file.writelines(qry)
             speak("Ok Boss")
 
