@@ -16,7 +16,7 @@ def pass_check(text):
 
 
 def SignUp():
-    excel_data = pandas.read_excel('user_log.xlsx', sheet_name='user')
+    excel_data = pandas.read_excel(r"Avatar2\\user_log.xlsx", sheet_name='user')
     name = excel_data["Name"].to_list()
     passwd = excel_data["Password"].to_list()
     user_name = input("Enter Your Name:- ")
@@ -35,7 +35,7 @@ def SignUp():
                 user = pandas.DataFrame(
                     {"Name": name, "Password": passwd})
                 writer = pandas.ExcelWriter(
-                    "user_log.xlsx", engine="xlsxwriter")
+                    r"Avatar2\\user_log.xlsx", engine="xlsxwriter")
                 user.to_excel(writer, sheet_name='user')
                 writer.save()
                 print("You have Succesfully Signed Up")
